@@ -1,4 +1,4 @@
-# CUDA HSV Chroma Keying - Stage 16
+# CUDA HSV Chroma Keying 
 
 This project implements real-time green screen removal using CUDA and HSV color masking. It allows you to remove a green background from live webcam input using CUDA acceleration for real-time performance.
 
@@ -24,7 +24,7 @@ This project implements real-time green screen removal using CUDA and HSV color 
 
 2. **Compile with:**
    ```bash
-   "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" main.cu -o stage16.exe ^
+   "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" main.cu -o chromaimg.exe ^
    -I"C:\opencv\build\include" ^
    -L"C:\opencv\build\x64\vc16\lib" -lopencv_world4120
    ```
@@ -33,7 +33,7 @@ This project implements real-time green screen removal using CUDA and HSV color 
 
 3. **Run the executable:**
    ```bash
-   ./stage16.exe
+   ./chromaimg.exe
    ```
 
 ## Improvements Over Previous Stage
