@@ -1,0 +1,44 @@
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio build folders
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Binary and object files
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+
+# Build directories
+build/
+stage18.dir/
+x64/
+
+# Generated project files
+*.vcxproj*
+*.filters
+
+# Background video
+bg.mp4
+
+# Backup / logs
+*.log
+*.cache
+*.tmp
+
+# Python/venv (if any later)
+__pycache__/
+*.pyc
+venv/
+.env/
